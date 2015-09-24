@@ -1,0 +1,1 @@
+app.controller("addItemCtrl",["$scope",function(e){e.items=[],e.addItem=function(){e.items.push(e.newItem),e.newItem=""}}]);
